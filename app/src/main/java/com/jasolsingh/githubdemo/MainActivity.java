@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         }
         //*****************************************
         Toast.makeText(this, "BranchA", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "BranchA Toast 2", Toast.LENGTH_SHORT).show();
     }
 }
