@@ -1,8 +1,9 @@
 package com.jasolsingh.githubdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.jasolsingh.githubdemo.ui.main.MainFragment;
 
@@ -17,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.container, MainFragment.newInstance())
                     .commitNow();
         }
+        //*****************************************
+        Toast.makeText(this, "BranchA", Toast.LENGTH_SHORT).show();
     }
 }
